@@ -19,7 +19,7 @@ function refreshtable() {
 		document.getElementById("int").innerHTML=bp.tradingIntervalMinutes+" min";
 
 	if (bp.tickCount>1)
-		document.getElementById("ticks").innerHTML=bp.tickCount+ "samples"
+		document.getElementById("ticks").innerHTML=bp.tickCount+ " samples"
 	else
 		document.getElementById("ticks").innerHTML="1 sample";
 		
